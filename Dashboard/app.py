@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import streamlit as st
 import pandas as pd
 import seaborn as sns
@@ -75,13 +78,13 @@ def main():
     else:
 # ........................................... Load Model & Data ..........................................
         st.set_page_config(layout="wide")
-        with open("model.pkl", "rb") as f:
+        with open(r"C:\Users\sanga\Downloads\Air-Quality-predictor-of-kathmandu-main\models\model.pkl", "rb") as f:
             model = pickle.load(f)
         
         @st.cache_data
         def load_data():
             try:
-                return pd.read_csv("Air_Quality_dataset_of_kathmandu_modified.csv", parse_dates=["Datetime"])
+                return pd.read_csv(r"C:\Users\sanga\Downloads\Air-Quality-predictor-of-kathmandu-main\data\processed\processed_data.csv", parse_dates=["Datetime"])
             except FileNotFoundError:
                 return pd.DataFrame(columns=["Datetime", "AQI"])
         
