@@ -92,7 +92,7 @@ Using statistical modeling and machine learning, we built:
 
 ---
 
-## 📂 Folder Structure
+## 📂 Sample Folder Structure
 
 ```bash
 ├── Dashboard/
@@ -111,7 +111,7 @@ Using statistical modeling and machine learning, we built:
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/<your-username>/kathmandu-air-quality-forecasting.git
+git clone https://github.com/poudelsangam77/Comprehensive-Analysis-and-Forecasting-of-Air-Quality-in-Kathmandu.git
 cd kathmandu-air-quality-forecasting/Dashboard
 ```
 
