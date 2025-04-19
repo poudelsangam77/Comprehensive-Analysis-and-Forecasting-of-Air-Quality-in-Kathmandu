@@ -78,13 +78,17 @@ def main():
     else:
 # ........................................... Load Model & Data ..........................................
         st.set_page_config(layout="wide")
-        with open(r"C:\Users\sanga\Downloads\Air-Quality-predictor-of-kathmandu-main\models\model.pkl", "rb") as f:
+
+        # Update paths to use relative paths for Streamlit Cloud compatibility
+        model_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'model.pkl')
+        data_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'processed', 'processed_data.csv')
+
+        with open(model_path, "rb") as f:
             model = pickle.load(f)
-        
         @st.cache_data
         def load_data():
             try:
-                return pd.read_csv(r"C:\Users\sanga\Downloads\Air-Quality-predictor-of-kathmandu-main\data\processed\processed_data.csv", parse_dates=["Datetime"])
+                return pd.read_csv(data_path, parse_dates=["Datetime"])
             except FileNotFoundError:
                 return pd.DataFrame(columns=["Datetime", "AQI"])
         
