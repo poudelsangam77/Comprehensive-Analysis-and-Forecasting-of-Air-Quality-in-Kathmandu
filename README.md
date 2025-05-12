@@ -1,4 +1,4 @@
-# 📊 Comprehensive Analysis and Forecasting of Air Quality in Kathmandu
+#  Comprehensive Analysis and Forecasting of Air Quality in Kathmandu
 
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Deployed-brightgreen)](https://kathmanduairqualityforecasting.streamlit.app/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -9,24 +9,24 @@ An end-to-end data science project that analyzes historical air quality trends i
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 
-- [📌 Table of Contents](#-table-of-contents)
-- [📖 Project Overview](#-project-overview)
-- [🎯 Objectives](#-objectives)
-- [⚙️ Features](#️-features)
-- [🧠 Methodology](#-methodology)
-- [📈 Models Used](#-models-used)
-- [📊 Dashboard Preview](#-dashboard-preview)
-- [🛠️ Technologies Used](#️-technologies-used)
-- [📂 Folder Structure](#-folder-structure)
-- [🚀 Run Locally](#-run-locally)
-- [✅ Results](#-results)
-- [📚 References](#-references)
+- [ Table of Contents](#-table-of-contents)
+- [ Project Overview](#-project-overview)
+- [ Objectives](#-objectives)
+- [ Features](#️-features)
+- [ Methodology](#-methodology)
+- [ Models Used](#-models-used)
+- [ Dashboard Preview](#-dashboard-preview)
+- [ Technologies Used](#️-technologies-used)
+- [ Folder Structure](#-folder-structure)
+- [ Run Locally](#-run-locally)
+- [ Results](#-results)
+- [ References](#-references)
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 
 Air pollution in Kathmandu has become a growing public health concern. This project provides a comprehensive analysis and predictive framework for monitoring and forecasting the **Air Quality Index (AQI)** using real-world environmental and meteorological data.
 
@@ -37,7 +37,7 @@ Using statistical modeling and machine learning, we built:
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Analyze historical AQI and weather data of Kathmandu.
 - Forecast short-term AQI trends (24, 48, 72 hours).
@@ -46,16 +46,16 @@ Using statistical modeling and machine learning, we built:
 
 ---
 
-## ⚙️ Features
+##  Features
 
-- ✅ **Visualize:** Interactive charts (line, bar, heatmap, pie) showing AQI trends, statistics, and category breakdowns.
-- 🔮 **Predict:** Input current environmental parameters to get predicted AQI and health advisories.
-- 📅 **Forecast:** Generate 24/48/72-hour AQI forecasts using Facebook Prophet.
-- 🌐 **Live Dashboard:** Deployed and accessible online.
+-  **Visualize:** Interactive charts (line, bar, heatmap, pie) showing AQI trends, statistics, and category breakdowns.
+-  **Predict:** Input current environmental parameters to get predicted AQI and health advisories.
+-  **Forecast:** Generate 24/48/72-hour AQI forecasts using Facebook Prophet.
+-  **Live Dashboard:** Deployed and accessible online.
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 1. **Data Collection:** Open-Meteo API + government air quality datasets.
 2. **Preprocessing:** Handled missing values, normalized features, converted time series.
@@ -67,7 +67,7 @@ Using statistical modeling and machine learning, we built:
 
 ---
 
-## 📈 Models Used
+##  Models Used
 
 | Model                   | Purpose                                  | Metric (R² Score) |
 |-------------------------|------------------------------------------|-------------------|
@@ -76,13 +76,13 @@ Using statistical modeling and machine learning, we built:
 
 ---
 
-## 📊 Dashboard Preview
+##  Dashboard Preview
 
 ![Dashboard Preview](https://i.imgur.com/w9qgmgO.jpeg)
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python**
 - **Streamlit** (Dashboard)
@@ -92,7 +92,7 @@ Using statistical modeling and machine learning, we built:
 
 ---
 
-## 📂 Sample Folder Structure
+##  Sample Folder Structure
 
 ```bash
 ├── Dashboard/
@@ -107,7 +107,7 @@ Using statistical modeling and machine learning, we built:
 
 ---
 
-## 🚀 Run Locally
+##  Run Locally
 
 ### 1. Clone the repo
 ```bash
@@ -133,7 +133,7 @@ streamlit run app.py
 
 ---
 
-## ✅ Results
+##  Results
 
 - AQI prediction achieved **R² = 0.91** with Random Forest Regressor.
 - Seasonal trends and daily pollution cycles clearly visualized.
@@ -141,7 +141,7 @@ streamlit run app.py
 
 ---
 
-## 📚 References
+##  References
 
 - [Facebook Prophet Docs](https://facebook.github.io/prophet/docs/quick_start.html)
 - [Streamlit Docs](https://docs.streamlit.io/)
@@ -150,7 +150,7 @@ streamlit run app.py
 
 ---
 
-> 💬 **Developed by**  
+>  **Developed by**  
 > Sangam Paudel · Saroj Rawal · Subesh Yadav  
-> 👨‍🎓 Department of Electronics and Computer Engineering, Pulchowk Campus  
-> 📍 Tribhuvan University, Nepal
+>  Department of Electronics and Computer Engineering, Pulchowk Campus  
+>  Tribhuvan University, Nepal
